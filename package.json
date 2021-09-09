@@ -3,16 +3,16 @@
     "displayName": "JSON5 syntax",
     "description": "Adds syntax highlighting of JSON5 files",
     "version": "1.0.0",
-    "publisher": "mrmlnc",
+    "publisher": "katjanakosic",
     "license": "MIT",
     "engines": {
       "vscode": "^1.3.0"
     },
   
-  "homepage": "https://github.com/mrmlnc/vscode-json5/blob/master/README.md",
+  "homepage": "https://github.com/katjanakosic/vscode-json5/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrmlnc/vscode-json5"
+    "url": "https://github.com/katjanakosic/vscode-json5"
   },
   "keywords": [
     "json5",
