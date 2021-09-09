@@ -139,13 +139,58 @@
 			]
 		},
 		"key": {
-			"name": "string.key.json5",
+			"name": "support.type.property-name.json5",
+			"patterns": [
+				
+				{ "include": "#singleQuotedKey"},
+				{ "include": "#doubleQuotedKey"},
+				{
+					"match": "[a-zA-Z0-9_-]",
+					"name": "support.type.property-name.json5"
+				}
+			]
+		},
+		"singleQuotedKey": {
+			"begin": "'",
+			"beginCaptures": {
+				"0": {
+					"name": "support.type.property-name.json5"
+				}
+			},
+			"end": "'",
+			"endCaptures": {
+				"0": {
+					"name": "support.type.property-name.json5"
+				}
+			},
+			"name": "support.type.property-name.json5",
 			"patterns": [
 				{ "include": "#stringSingle" },
+				{
+					"match": "[a-zA-Z0-9_-]",
+					"name": "support.type.property-name.json5"
+				}
+			]
+		},
+		"doubleQuotedKey": {
+			"begin": "\"",
+			"beginCaptures": {
+				"0": {
+					"name": "support.type.property-name.json5"
+				}
+			},
+			"end": "\"",
+			"endCaptures": {
+				"0": {
+					"name": "support.type.property-name.json5"
+				}
+			},
+			"name": "support.type.property-name.json5",
+			"patterns": [
 				{ "include": "#stringDouble" },
 				{
 					"match": "[a-zA-Z0-9_-]",
-					"name": "string.key.json5"
+					"name": "support.type.property-name.json5"
 				}
 			]
 		},
