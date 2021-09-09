@@ -41,14 +41,12 @@
 		"number": {
 			"patterns": [
 				{
-					"comment": "handles hexadecimal numbers",
-					"match": "(0x)[0-9a-fA-f]*",
-					"name": "constant.hex.numeric.json5"
+					"name": "invalid.illegal.octal.json5",
+					"match": "[+-]?0[0-9]+"
 				},
 				{
-					"comment": "handles integer and decimal numbers",
-					"match": "[+-.]?(?=[1-9]|0(?!\\d))\\d+(\\.\\d+)?([eE][+-]?\\d+)?",
-					"name": "constant.dec.numeric.json5"
+					"name": "constant.numeric.json5",
+					"match": "[+-]?(Infinity|NaN|0[xX][0-9A-Fa-f]+|((0|[1-9][0-9]*)\\.[0-9]*|\\.[0-9]+|(0|[1-9][0-9]*))([eE][+-]?[0-9]+)?)"
 				}
 			]
 		},
