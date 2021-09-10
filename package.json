@@ -1,7 +1,7 @@
 {
     "name": "vscode-json5",
-    "displayName": "JSON5 syntax",
-    "description": "Adds syntax highlighting of JSON5 files",
+    "displayName": "JSON5 syntax extended",
+    "description": "This extension extends the JSON5 syntax highlighting for keys and numbers.",
     "version": "1.0.0",
     "publisher": "KatjanaKosic",
     "license": "MIT",

@@ -1,12 +1,21 @@
 # vscode-json5
 
-> This extension adds syntax highlighting of JSON5 files in VS Code.
+> This extension adds syntax highlighting of JSON5 files in VS Code based on this repository: https://github.com/mrmlnc/vscode-json5.
 
 ## Colorization
 
-![JSON5 syntax in VS Code](https://cloud.githubusercontent.com/assets/7034281/19013821/e8150e9a-87e4-11e6-9127-e9ec7c989c86.png)
+> Here's what changed: The colorisation of the keys is now different from the string values no matter if they are double or single quoted or not at all. Following screenshots show the before and after:
+
+
+Before adjustment:
+
+![JSON5 syntax in VS Code before](https://cloud.githubusercontent.com/assets/7034281/19013821/e8150e9a-87e4-11e6-9127-e9ec7c989c86.png)
 
 (imported from [Atom package](https://github.com/wiredmax/language-json5))
+
+After adjustment:
+
+![JSON5 syntax coloring in VS Code after adjustment](https://github.com/katjanakosic/Screenshots/blob/main/Screenshot%202021-09-10%20at%2010.16.39.png?raw=true)
 
 ## Usage
 
@@ -34,7 +43,6 @@
 > These simple rules will help me to solve your problem.
 
   * Check the **Issues** and **Pull requests** sections for duplicates of your question or path.
-  * Please, use GitHub emotions.
   * If you want create **Issue**:
     * Specify the version of your editor and used theme.
     * Detailed description of your problem:
@@ -49,7 +57,7 @@
 
 ## Changelog
 
-See the [Releases section of our GitHub project](https://github.com/mrmlnc/vscode-json5/releases) for changelogs for each release version.
+See the [Releases section of my GitHub project](https://github.com/katjanakosic/vscode-json5/releases) for changelogs for each release version.
 
 ## License
 
