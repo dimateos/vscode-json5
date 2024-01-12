@@ -1,4 +1,6 @@
 {
+    // ref: https://code.visualstudio.com/api/references/contribution-points#contributes.languages
+
     /* before key */ foo /* after key */: 'bar',
     while: /* before value */ true /* after value */,
 
@@ -22,4 +24,6 @@ multi-line string',
         'arrays can have',
         'trailing commas too',
     ],
+
+    last: 'is another' // last comment
 }

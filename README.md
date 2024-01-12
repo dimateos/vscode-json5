@@ -1,5 +1,4 @@
 # vscode-json5
-
 > :new: So far, just a tiny update to add a custom icon to the language id (instead of the default plain text icon). Also updated readme quite a bit.
 
 <!-- TODO:: change image  -->
@@ -10,9 +9,10 @@
 * Syntax highlight that includes comments! Invalid comments are highlighted are reported as errors, as any other issues.
 * `.json5` files automatically associated to this extension, whereas `.json` has to be set manually.
 * Colorization of the keys is different from the string values no matter if they are double or single quoted or not at all.
+* Recognize comments around object values
+* Custom icon from https://github.com/jesseweed/seti-ui
 
 ## Usage
-
 > :hand: Install the extension
 
 Then you can do any of the following to start using it...
@@ -42,7 +42,6 @@ Check the **Issues** and **Pull requests** sections for duplicates of your quest
   * Make your changes and send a PR.
 
 ## Changelog
-
 > :warning: See original repo/forks for detailed added features etc
 
 See the [Releases section of my GitHub project](https://github.com/dimateos/vscode-json5/releases) for changelogs for each release version.
@@ -50,3 +49,5 @@ See the [Releases section of my GitHub project](https://github.com/dimateos/vsco
 ## License
 
 This software is released under the terms of the MIT license.
+
+<!-- :ghost: u found me, boo -->
