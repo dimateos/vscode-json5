@@ -2,16 +2,16 @@
     "name": "vscode-json5",
     "displayName": "JSON5 syntax extended",
     "description": "This extension extends the JSON5 syntax highlighting for keys and numbers.",
-    "version": "1.0.1",
-    "publisher": "KatjanaKosic",
+    "version": "1.0.2",
+    "publisher": "dimateos",
     "license": "MIT",
     "engines": {
         "vscode": "^1.3.0"
     },
-    "homepage": "https://github.com/katjanakosic/vscode-json5/blob/master/README.md",
+    "homepage": "https://github.com/dimateos/vscode-json5/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/katjanakosic/vscode-json5"
+        "url": "https://github.com/dimateos/vscode-json5"
     },
     "keywords": [
         "json5",
