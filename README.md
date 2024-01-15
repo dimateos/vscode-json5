@@ -10,7 +10,7 @@
 * `.json5` files automatically associated to this extension, whereas `.json` has to be set manually.
 * Colorization of the keys is different from the string values no matter if they are double or single quoted or not at all.
 * Recognize comments around object values
-* Custom icon from https://github.com/jesseweed/seti-ui
+* Custom icon from https://github.com/PKief/vscode-material-icon-theme (MIT license). More were tried and left in ``icons/`` along its sources.
 
 ## Usage
 > :hand: Install the extension
@@ -23,6 +23,7 @@ Then you can do any of the following to start using it...
 * Change the file extension to `.json5`, then vscode will automatically select the language mode.
 * Change the language mode associated with `.json` or `.jsonc`
   * Careful! *json5* syntax is not usually valid for most json parsers, so you would be hiding potential format problems.
+  * You may also lose configuration intellisense for vscode config files!
 
 ## Contributing
 > :bulb: These simple rules will help me to solve your problem.

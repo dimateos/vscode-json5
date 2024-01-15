@@ -32,7 +32,11 @@
                 "extensions": [
                     ".json5"
                 ],
-                "configuration": "./json5.configuration.json"
+                "configuration": "./json5.configuration.json",
+                "icon": {
+                    "dark":  "./icons/json-material.svg",
+                    "light":  "./icons/json-material.svg"
+                }
             }
         ],
         "grammars": [
