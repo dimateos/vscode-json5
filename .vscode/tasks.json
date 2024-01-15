@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+
+    "tasks": [
+        {
+            "label": "package",
+            "icon": {"id": "terminal-ubuntu"},
+            "type": "shell",
+            "command": "vsce package && code --install-extension vscode-json5-1.0.2.vsix",
+            "group": "build", // default build task
+        },
+
+        // stage tasks.json even though it is inside .vscode/
+        {
+            "label": "update.tasks",
+            "icon": {"id": "tasklist"},
+            "type": "shell",
+            "command": "git add .vscode/tasks.json -f",
+        },
+
+        // build + auto reload the editor afterwards (cannot see errors in the console tho)
+        {
+            "label": "util.reload",
+            "command": "${input:util-reload-editor}",
+            "hide": true, "problemMatcher": [], "isBackground": true,  "presentation": { "reveal": "never", "close": true,},
+
+            //"group": "build", // default build task
+            "dependsOn": "package", "dependsOrder": "sequence",
+        },
+    ],
+
+    "inputs": [
+        {
+            "id": "util-reload-editor",
+            "type": "command",
+            "command": "workbench.action.reloadWindow",
+            //"command": "workbench.action.pinEditor", // test
+        },
+    ]
+}
