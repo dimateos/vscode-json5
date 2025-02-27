@@ -1,8 +1,9 @@
 # vscode-json5
+> :warning: FORK: see linked repos for more info/credits
+
 > :new: So far, just a tiny update to add a custom icon to the language id (instead of the default plain text icon). Also updated readme quite a bit.
 
-<!-- TODO:: change image  -->
-<img style="display: block; float: none; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; width:80%;" src="https://github.com/katjanakosic/Screenshots/blob/main/Screenshot%202021-09-10%20at%2010.16.39.png?raw=true">
+<img style="display: block; float: none; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; width:80%;" src="https://cloud.githubusercontent.com/assets/7034281/19013821/e8150e9a-87e4-11e6-9127-e9ec7c989c86.png?raw=true">
 
 ## Features
 
@@ -43,9 +44,7 @@ Check the **Issues** and **Pull requests** sections for duplicates of your quest
   * Make your changes and send a PR.
 
 ## Changelog
-> :warning: See original repo/forks for detailed added features etc
-
-See the [Releases section of my GitHub project](https://github.com/dimateos/vscode-json5/releases) for changelogs for each release version.
+> :warning: FORK: See original repo/forks for detailed added features etc
 
 ## License
 
